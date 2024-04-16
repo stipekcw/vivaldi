@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  vivaldi_bh:
+    build: .
+    volumes: 
+      - .:/files
+    environment:
+
+    command: tail -f /dev/null
+  
